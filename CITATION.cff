@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived data, please cite it as below."
+title: "BRIDGE Spatial Sustainable Finance: Earth-observation workflows for asset-level environmental impact"
+version: 1.0.0
+date-released: 2026-11-16
+authors:
+  - family-names: Hauser
+    given-names: Leon T.
+    affiliation: "Department of Geography, University of Zurich (UZH)"
+repository-code: "https://github.com/Hauzero/Bridge-SpatialSustainableFinance"
+license: MIT
+keywords:
+  - remote sensing
+  - sustainable finance
+  - mining impacts
+  - water quality
+  - counterfactual
+  - Sentinel-3
+  - AlphaEarth

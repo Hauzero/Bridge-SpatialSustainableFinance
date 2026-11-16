@@ -1,0 +1,14 @@
+# pip alternative to environment.yml (geopandas/rasterio wheels are available on PyPI for Python 3.9+)
+numpy
+pandas
+scipy
+matplotlib
+xarray
+netCDF4
+geopandas
+rasterio
+shapely
+folium
+jupyterlab
+earthengine-api
+copernicusmarine

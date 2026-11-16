@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+*.lock
+.DS_Store
+Thumbs.db
+
+# large inputs and run outputs (re-created by the notebooks)
+data/rrs_monthly/
+outputs/
+data/counterfactual_demo/*_counterfactuals_combined.csv

@@ -1,0 +1,20 @@
+name: bridge-ssf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - xarray
+  - netcdf4
+  - geopandas
+  - rasterio
+  - shapely
+  - folium
+  - jupyterlab
+  - pip
+  - pip:
+      - earthengine-api
+      - copernicusmarine
