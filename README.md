@@ -78,6 +78,9 @@ Each source has its own terms of use; check them before redistributing derived d
 - Questions and problems: open an issue in this repository. From 1 December 2026 the repository is no longer actively maintained.
 - Contact: Dr. Leon Hauser, Department of Geography, University of Zurich (UZH).
 
+## Disclaimer
+Part of the notebook compilation, git package, and code are compiled with the help of LLMs with manual edit and supervision
+
 ## Citation and licence
 
 Code is released under the MIT licence (see `LICENSE`). If you use the code or derived data, please cite it as given in `CITATION.cff`. For the underlying concepts, please cite Hauser et al. (2025): https://doi.org/10.1029/2024EF005474
