@@ -1,8 +1,8 @@
 # BRIDGE Spatial Sustainable Finance
 
-How to integrate Satellite Earth Observation for Biodiversity/Water Risk and Impact assessment for Company Operations, read our paper (Hauser et al., 2025):  https://doi.org/10.1029/2024EF005474
+How to integrate Satellite Earth Observation for local Asset-level Corporate Biodiversity/Water Risk and Impact assessment, read our paper (Hauser et al., 2025):  https://doi.org/10.1029/2024EF005474
 
-Satellite-based workflows for assessing and attributing water and biodiversity risks of individual assets. The case study is the Weda Bay nickel mining and industrial complex in North Maluku, Indonesia.
+Satellite-based workflows for assessing and attributing water and biodiversity risks of individual assets of physical company operations. The case study is the Weda Bay nickel mining and industrial complex in North Maluku, Indonesia.
 
 | Part | What it does | Where | Reference |
 |---|---|---|---|
