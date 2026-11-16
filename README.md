@@ -10,7 +10,7 @@ Satellite-based workflows for assessing and attributing water and biodiversity r
 | **Counterfactual selection** | Find control sites (land/coast) that resembled the asset area before intervention | `notebooks/02_counterfactual_selection_embeddings.ipynb` | Build using Brown et al. (2025), AlphaEarth Foundations, https://arxiv.org/abs/2507.22291 |
 | **Dynamic Habitat Indices** | Biodiversity-relevant productivity indices (cumulative, minimum, seasonality) from HLS30 | `dhi/` (mirrored from [Hauzero/dhi-evi-hls](https://github.com/Hauzero/dhi-evi-hls)) | Adopted from Coops et al. (2018), Scientific Reports, 8, 16261 |
 
-These are the materials presented at the ZHAW-GEO workshop (09 November 2026).
+These are the materials presented at the ZHAW-GEO workshop (09 November 2026). The slides are included: [`docs/ZHAW-GEO_workshop_2026-11-09_slides.pdf`](docs/ZHAW-GEO_workshop_2026-11-09_slides.pdf).
 
 ## Quick start
 
@@ -46,7 +46,7 @@ Both notebooks run top to bottom without edits for Weda Bay. To analyse another 
 notebooks/   the two workflows, with explanations in the markdown cells
 dhi/         Dynamic Habitat Indices code, mirrored from the dhi-evi-hls repository (git subtree)
 data/        inputs that the notebooks need for demo mode (see data/README.md)
-docs/        account setup guides for Copernicus Marine and Earth Engine
+docs/        workshop slides (PDF) and account setup guides for Copernicus Marine and Earth Engine
 outputs/     created at run time (annual indicator composites, time series); not tracked
 ```
 
@@ -56,13 +56,18 @@ Included: the 10 km buffers of the seven nickel mining sites (exclusion zones fo
 
 Not included: the monthly Sentinel-3 reflectance files (notebook 1 downloads them for the area of interest) and any run outputs.
 
-## Mapping to the workshop slides
+## Workshop slides
 
-| Slides | Topic | Material |
+The deck ([`docs/ZHAW-GEO_workshop_2026-11-09_slides.pdf`](docs/ZHAW-GEO_workshop_2026-11-09_slides.pdf), 34 slides) gives the context that the notebooks assume:
+
+| Slides | Content | Material in this repository |
 |---|---|---|
-| 7-9, 14-16, 21 | EO workflow, water-risk indicators, Weda Bay time series | notebook 1 |
-| 10-13, 15, 20, 22 | Detection and attribution, counterfactual search with embeddings | notebook 2 |
-| 23-35 | Dynamic Habitat Indices | `dhi/dhi_evi.py` (see `dhi/README.md`) |
+| 1-5 | Why asset-level Earth observation: the Seven Challenges (Hauser et al., 2025) and an overview of remote-sensing products for water, cryosphere, land, vegetation and atmosphere, marked as core, adjacent or out of scope | background |
+| 6-9 | Case study: coastal nickel mining in East Indonesia (Weda Bay), the EO workflow (10 km footprint, six water indicators, annual composites 2017-2025, attribution, translation to risk) and the water-risk indicator framework | notebook 1 |
+| 10-13 | Detection and attribution: before-after control-intervention design, counterfactuals, and the similarity search with AlphaEarth embeddings | notebook 2 |
+| 14-20 | Results for Weda Bay: Kd490 before/after maps, counterfactual points, time series, 3-D indicator space, covariate balance of counterfactuals | produced by the research pipeline behind notebooks 1 and 2 |
+| 21-22 | The two notebooks | `notebooks/` |
+| 23-34 | Dynamic Habitat Indices: from EVI to DHIs, evidence from the literature, HLS implementation, expected mining impacts, example output | `dhi/` |
 
 ## Data sources
 
