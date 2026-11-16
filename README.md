@@ -7,7 +7,7 @@ Satellite-based workflows for assessing and attributing water and biodiversity r
 | Part | What it does | Where | Reference |
 |---|----|---|---|
 | **Water-risk indicators** | S-3 coastal water-quality indicators | `notebooks/01_s3_water_quality_indicators.ipynb` | Hauser, Santos & Damm (2026), World Biodiversity Forum, Davos, https://doi.org/10.5194/wbf2026-622 |
-| **Counterfactual selection** | Finds land and coastal control sites that resembled the asset area before intervention | `notebooks/02_counterfactual_selection_embeddings.ipynb` | Brown et al. (2025), AlphaEarth Foundations, https://arxiv.org/abs/2507.22291 |
+| **Counterfactual selection** | Find control sites (land/coast) that resembled the asset area before intervention | `notebooks/02_counterfactual_selection_embeddings.ipynb` | Brown et al. (2025), AlphaEarth Foundations, https://arxiv.org/abs/2507.22291 |
 | **Dynamic Habitat Indices** | Biodiversity-relevant productivity indices (cumulative, minimum, seasonality) from HLS30 | `dhi/` (mirrored from [Hauzero/dhi-evi-hls](https://github.com/Hauzero/dhi-evi-hls)) | Coops et al. (2018), Scientific Reports, 8, 16261 |
 
 These are the materials presented at the ZHAW-GEO workshop (09 November 2026).
