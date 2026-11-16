@@ -45,7 +45,7 @@ Both notebooks run top to bottom without edits for Weda Bay. To analyse another 
 ```
 notebooks/   the two workflows, with explanations in the markdown cells
 dhi/         Dynamic Habitat Indices code, mirrored from the dhi-evi-hls repository (git subtree)
-data/        inputs that the notebooks need (small; see data/README.md)
+data/        inputs that the notebooks need for demo mode (see data/README.md)
 docs/        account setup guides for Copernicus Marine and Earth Engine
 outputs/     created at run time (annual indicator composites, time series); not tracked
 ```
